@@ -1,4 +1,4 @@
-function calc()
+function tipCalc()
 {
     var bill=parseFloat(document.getElementById("bill").value);
     var tip=parseFloat(document.getElementById("tip").value);
