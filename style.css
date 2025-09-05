@@ -1,0 +1,48 @@
+body{
+    background-color: blue;
+}
+.tip-calc{
+    background-color: aliceblue;
+    text-align: center;
+    margin: 100px auto;
+    min-height: 50vh;
+    width:300px;
+    border-radius:  10px;
+    padding:10px;
+}
+.tip-calc h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#bill{
+    width:250px;
+    padding:7px;
+    margin-top:10px;
+    border-radius: 4px;
+}
+#tip{
+    width:250px;
+    padding:7px;
+    margin-top:10px;
+    border-radius:4px;
+}
+.tip-calc button{
+    margin-top:20px;
+    background-color: hotpink;
+    color: aliceblue;
+    width:250px;
+    padding:7px;
+    border-radius: 4px;
+    border:2px solid hotpink;
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.tip-calc button:hover{
+    background-color: green;
+    border:2px solid green;
+}
+.result{
+    margin-top:20px;
+   
+    font-size: 20px;
+}
