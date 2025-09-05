@@ -1,4 +1,4 @@
-function tipCalc()
+function tipCalculator()
 {
     var bill=parseFloat(document.getElementById("bill").value);
     var tip=parseFloat(document.getElementById("tip").value);
@@ -17,4 +17,5 @@ function tipCalc()
         document.getElementById("Tip").innerHTML=tipamount;
         document.getElementById("total").innerHTML=totalbill;
     }
+
 }
